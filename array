@@ -1,0 +1,11 @@
+#bash support one dimentional array
+    array=('kundan' 'chandan' 'Avanish')
+    array[3]='Raushan' #will added index at 3
+    #array[1]='Raj' chandan replaced by Raj
+    echo "${array[@]}" #print all element which are present in array
+    echo "${array[1]}" #print element which is present and 2nd position
+    echo "${!array[@]}" #print index of array
+    echo "${#array[@]}" #print length of array
+    unset array[2]
+    echo "${array[@]}"    
+

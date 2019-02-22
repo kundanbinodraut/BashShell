@@ -1,0 +1,11 @@
+
+
+
+i=0
+while [ $i -le 20 ]
+    do
+       echo " $i"
+       sleep 1
+       echo "Kundan" 
+       i=$(( i+1 )) #(( i++))
+    done

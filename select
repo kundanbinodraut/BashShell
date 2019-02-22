@@ -1,0 +1,4 @@
+select name in kundan sree nilesh supriya zanhvi
+do 
+echo " $name selected"
+done

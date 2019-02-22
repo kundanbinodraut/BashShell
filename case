@@ -1,0 +1,9 @@
+vehicle=$1
+        case $vehicle in 
+             "car" )
+                   echo "car";;
+             "van" )
+                   echo "van";;
+              *)
+                   echo "default";;
+        esac

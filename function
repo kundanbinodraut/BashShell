@@ -1,0 +1,13 @@
+#function is optional
+ function name()
+  {
+     echo "kundan"
+  }
+
+  name()
+  {
+     echo "Sree"
+  }
+
+#to execute function give function name
+ name

@@ -1,0 +1,14 @@
+echo -e "Enter some character : \c"
+read value
+case $value in
+[a-z] )
+    echo " a-z";;
+[A-Z] )
+    echo " A-Z";;
+[0-9] )
+    echo " 0-9";;
+? )#special character
+    echo " special character";;
+* )#other character
+    echo " Unknown";;
+esac
